@@ -1,0 +1,36 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_size_text"
+            android:id="@+id/main_toolbar" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat APP" />
+
+</RelativeLayout>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+        
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+</RelativeLayout>
+</merge>
